@@ -52,7 +52,7 @@ template<typename T>
 CMultiSet<T>::CMultiSet(int capacity)
     : values(nullptr) {
     this->size = capacity;
-    values = new T[size]{};
+    values = new T[size];
     if (!values) {
         throw bad_alloc();
     }
