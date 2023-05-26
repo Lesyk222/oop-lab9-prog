@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# My ignore
+.vs/
+packages/
+x64/
+*.vcxproj
+*.filters
+*.user
+*.sln
+*.config
